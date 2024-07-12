@@ -1,0 +1,48 @@
+body{
+    background-color: #D3D4D9;
+}
+#image {
+    width: 900px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    background-size: cover;
+    border: 2px dotted #1D4E89;
+    color: antiquewhite;
+
+  }
+  
+  .gallery {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+  }
+  
+  .gallery-image {
+    width: 150px;
+    height: 300px;
+    cursor: pointer;
+
+
+  }
+
+  .gallery-image:hover{
+    opacity: 0.6;
+    border-radius: 10px;
+  }
+
+  #image-container{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    margin-top: 3rem;
+    font-size: 2rem;
+  }
+
+
+  
+  
+

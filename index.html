@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Photo Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="image-container">
+    <div id="image">Hover over an image below to display here.</div>
+  </div>
+  <div class="gallery">
+    <img src="image1.jpg" alt="Beautiful Landscape" class="gallery-image" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+    <img src="image2.jpg" alt="City at Night" class="gallery-image" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+    <img src="image3.jpg" alt="Mountain Range" class="gallery-image" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+    <img src="image4.jpg" alt="Ocean View" class="gallery-image" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+    <img src="image5.jpg" alt="Forest Path" class="gallery-image" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+    <img src="image6.jpg" alt="Desert Dunes" class="gallery-image" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
